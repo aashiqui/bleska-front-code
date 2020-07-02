@@ -9,7 +9,7 @@ import { CovalentHttpModule } from '@covalent/http';
 import { CovalentHighlightModule } from '@covalent/highlight';
 import { CovalentMarkdownModule } from '@covalent/markdown';
 import { CovalentDynamicFormsModule } from '@covalent/dynamic-forms';
-import { CovalentBaseEchartsModule } from '@covalent/echarts/base';
+
 
 @NgModule({
   declarations: [],
@@ -22,7 +22,7 @@ import { CovalentBaseEchartsModule } from '@covalent/echarts/base';
     CovalentHighlightModule,
     CovalentMarkdownModule,
     CovalentDynamicFormsModule,
-    CovalentBaseEchartsModule,
+
   ]
 })
 export class SharedModule { }
